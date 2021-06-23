@@ -29,3 +29,12 @@ Run the install command with -y flag to quickly install the packages and depende
 ```
 sudo apt-get install -y latexmk
 ```
+### Fork, Clone, and Update!
+1. Fork
+2. Clone ```$ git clone https://github.com/YOURUSERNAME/REPONAME.git```
+3. Connect to the master repository ```$ git remote add upstream https://github.com/MASTERREPO_YOUSERNAME/REPONAME.git```
+4. Keeping up to date
+  * ~$ cd path/to/REPONAME
+  * ~$ git fetch upstream
+  * ~$ git checkout master
+  * ~$ git merge upstream/master
